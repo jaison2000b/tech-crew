@@ -1,6 +1,119 @@
-<html>
-<head></head>
+<!doctype html>
+<head>
+<style rel="text/css">
+body
+{
+    background-color: black;
+
+}
+button
+{
+    border: 20px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 100 round;
+  background-color: transparent;
+  background-image: url(tile.png);
+  background-size: 30% ;
+
+  
+ 
+}
+@font-face {
+    font-family: "f13";
+    src: url("https://bawdycaste.com/styles/F13.ttf") format("truetype");
+}
+p
+{
+    font-family: f13;
+    font-size: 6rem
+}
+@font-face {
+    font-family: "DF";
+    src: url("https://bawdycaste.com/styles/DF.ttf") format("truetype");
+}
+h1
+{
+   
+    font-family: DF;
+    color: salmon;
+    font-size: 6rem;
+    position: relative;
+    top: -3rem;
+    
+
+    
+}
+#butt-1
+{
+position: absolute;
+top: 15rem;
+left: 6rem
+}
+#butt-2
+{
+    position: absolute;
+    top:15rem;
+    right:12rem;
+}#butt-3
+{
+    position: absolute;
+    top:40rem;
+    left: 6rem;
+}#butt-4
+{
+    position: absolute;
+    top:40rem;
+    right:12rem;
+}
+.the
+{
+color: violet;
+}
+.spice
+{
+    color:teal;
+   
+}
+.must
+{
+    color: orangered;
+}
+.flow
+{
+    color:slategrey;
+}
+</style>
+</head>
 <body>
-<h1>come soon</h1>
+    <h1 align="center">Tech-Crew</h1>
+    <a href="https://github.com/bawdycaste/tech-crew/wiki" target="_blank">
+<div id="butt-1">
+<button>
+<p class="the">Prop wiki</p>
+</button>
+</div></a>
+<div id="butt-2">
+        <a href="https://drive.google.com/drive/folders/0B-n-B_AcXvPCTzVCMHRrRTVESXc" target="_blank">
+<button>
+<p class="spice">The Cue sheets</p>
+</button>
+</div></a>
+<div id="butt-3">
+        <a href="https://docs.google.com/presentation/d/1-Cu_EwxgxMXgJhIkCbK_C-LIA1ZqsH0AKBiDc6fc15E/" target="_blank">
+<button>
+<p class="must">The Cue cards</p>
+</button>
+</div></a>
+<div id="butt-4">
+<button  onclick="myFunction()">
+<p class="flow">The Slow Blade</p>
+</button>
+</div>
+
+<script>
+function myFunction() {
+  alert("Penitrates The Sheild!");
+}
+</script>
+
 </body>
-</html>
